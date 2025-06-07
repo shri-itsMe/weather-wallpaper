@@ -3,11 +3,12 @@ from dotenv import load_dotenv
 import requests
 import json
 
+WEATHER_URL = "http://api.weatherapi.com/v1/current.json"
 
 # # print(data)
 # print(data["current"]["temp_f"])
 class Weather:
-    def __init__(self, url, location):
+    def __init__(self, location, url=WEATHER_URL):
         self.url = url
         self.location = location
         # API URL Endpoint for Current Weather; Parameter for Location
