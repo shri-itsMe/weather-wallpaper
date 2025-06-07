@@ -1,0 +1,1 @@
+#Set up wallpaper changin with osscript or apple script
