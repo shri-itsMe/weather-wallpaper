@@ -12,7 +12,7 @@
 
 A macOS app that automatically changes your desktop wallpaper based on the current weather in your city.
 
-Built with Python and AppleScript, bundled into a native `.app` using [Platypus](https://sveinbjorn.org/platypus).
+Built with Python and AppleScript
 
 MIT Lisence
 Built using Python 3 on macOS 12 (Darwin)
