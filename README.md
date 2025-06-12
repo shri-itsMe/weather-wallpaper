@@ -20,7 +20,6 @@ AppleScript used to set desktop wallpaper
 Uses ip-api.com and weatherapi.com
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Features
 
@@ -79,10 +78,10 @@ Uses ip-api.com and weatherapi.com
     '''
 
 7. Change git remote url to avoid accidental pushes to base project
-   ```sh
+   '''sh
    git remote set-url origin github_username/repo_name
    git remote -v # confirm the changes
-   ```
+   '''
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -113,7 +112,7 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 
 
 <!-- CONTRIBUTING -->
-## Contributing
+<!-- ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -126,7 +125,7 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 <!-- 
 ### Top contributors:
 
