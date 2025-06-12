@@ -1,0 +1,1 @@
+0 * * * * /Users/shriya/weather-wallpaper/venv/bin/python /Users/shriya/weather-wallpaper/main.py >> /Users/shriya/weather-wallpaper/log.txt 2>&1

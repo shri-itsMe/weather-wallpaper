@@ -8,8 +8,7 @@ WEATHER_URL = "http://api.weatherapi.com/v1/current.json"
 # # print(data)
 # print(data["current"]["temp_f"])
 class Weather:
-    def __init__(self, location, url=WEATHER_URL):
-        self.url = url
+    def __init__(self, location):
         self.location = location
         # API URL Endpoint for Current Weather; Parameter for Location
 
@@ -22,7 +21,7 @@ class Weather:
         
         PARAMS = {'key': api_key,
             'q': self.location} #TODO: Get IP Address (seperate file?)
-        r = requests.get(url = self.url, params = PARAMS)
+        r = requests.get(url = WEATHER_URL, params = PARAMS)
         data = r.json() 
 
         return data

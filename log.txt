@@ -1,0 +1,30 @@
+Grand Rapids
+Init, weather = Sunny
+Sunny
+Running find_wallpaper, weather = Sunny
+Sunny
+Running find_wallpaper, weather = Sunny
+Grand Rapids
+Init, weather = Sunny
+Sunny
+Running find_wallpaper, weather = Sunny
+Sunny
+Running find_wallpaper, weather = Sunny
+Grand Rapids
+Init, weather = Sunny
+Sunny
+Running find_wallpaper, weather = Sunny
+Sunny
+Running find_wallpaper, weather = Sunny
+Grand Rapids
+Init, weather = Sunny
+Sunny
+Running find_wallpaper, weather = Sunny
+Sunny
+Running find_wallpaper, weather = Sunny
+Grand Rapids
+Init, weather = Sunny
+Sunny
+Running find_wallpaper, weather = Sunny
+Sunny
+Running find_wallpaper, weather = Sunny
