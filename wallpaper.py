@@ -21,10 +21,11 @@ class Wallpaper:
         config_path = os.path.abspath("./assets/config.json")
         #save the abd path in a dict
         data = {"user_wallpaper": default_wallpaper.stdout.strip()}
-
-        #put all of that in a json
-        with open(config_path, "w") as f:
-            json.dump(data, f, indent=2)
+    
+        if not os.path.exists(config_path):
+            #put all of that in a json
+            with open(config_path, "w") as f:
+                json.dump(data, f, indent=2)
         
         return True
 
@@ -56,12 +57,23 @@ class Wallpaper:
         #         set desktopCount to count of desktops
         #         display dialog desktopCount
         #     end tell
+        
+        assets_folder = os.path.join(os.path.dirname(__file__), "assets")
+        new_wp_path = os.path.join(assets_folder, f"{asset_name}.png")
+        print("New Wallpaper Path: " + str(new_wp_path))
         script = f'''
             tell application "System Events"
-                set picture of current desktop to "/Users/shriya/weather-wallpaper/assets/{asset_name}.png"
+                set picture of current desktop to "{new_wp_path}"
             end tell
         '''
 
+        # assets_folder = os.path.join(os.path.dirname(__file__), "assets")
+        # new_wp_path = os.path.join(assets_folder, f"{asset_name}.png")
+        # script = f'''
+        #     tell application "System Events"
+        #         set picture of current desktop to {new_wp_path}
+        #     end tell
+        # '''
         subprocess.run(['osascript', '-e', script])
     
     def test_set_wallpapers(self):

@@ -21,13 +21,4 @@ if input("change back? T or F: ") == "T":
 
 
 
-# print(data["current"]["temp_f"])
-# print(data["current"]["condition"]["text"])
-
-#TODO: Make it run every hour DONE
-#TODO: Get a reset control DONE
-#TODO: Use an API to fetch wallpapers 
-#TODO: how should I get the absolute file path for other people
-#TODO: Bundle into Platypus
-
 
