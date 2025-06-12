@@ -73,15 +73,15 @@ Uses ip-api.com and weatherapi.com
    ```
    <br>
     Add this line (replace with your path) <br>
-    '''sh
+    ```sh
     0 * * * * /usr/bin/python3 /path/to/weather-wallpaper/main.py
-    '''
+    ```
 
 7. Change git remote url to avoid accidental pushes to base project
-   '''sh
+   ```sh
    git remote set-url origin github_username/repo_name
    git remote -v # confirm the changes
-   '''
+   ```
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
