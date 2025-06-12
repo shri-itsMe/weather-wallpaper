@@ -74,7 +74,7 @@ Uses ip-api.com and weatherapi.com
    ```
    <br>
     Add this line (replace with your path) <br>
-    '''cron
+    '''sh
     0 * * * * /usr/bin/python3 /path/to/weather-wallpaper/main.py
     '''
 
