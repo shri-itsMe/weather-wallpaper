@@ -8,40 +8,16 @@
 </div>
 
 
-<!-- 
-<!-- TABLE OF CONTENTS -->
-<!-- <details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details> -->
-
-
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
 A macOS app that automatically changes your desktop wallpaper based on the current weather in your city.
 
 Built with Python and AppleScript, bundled into a native `.app` using [Platypus](https://sveinbjorn.org/platypus).
+
+MIT Lisence
+Built using Python 3 on macOS 12 (Darwin)
+AppleScript used to set desktop wallpaper
+Uses ip-api.com and weatherapi.com
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -73,7 +49,7 @@ Built with Python and AppleScript, bundled into a native `.app` using [Platypus]
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://www.weatherapi.com/)
+1. Get a free API Key at [weather api](https://www.weatherapi.com/)
 2. Clone the repo
    ```sh
    git clone https://github.com/shri-itsMe/weather-wallpaper.git
@@ -85,20 +61,22 @@ Built with Python and AppleScript, bundled into a native `.app` using [Platypus]
    ```
 4. Enter your API in you virtual environment
    ```sh
-   WEATHER_API_KEY='ENTER YOUR API';
+   WEATHER_API_KEY='ENTER YOUR API'
    ```
 5. (Optional) Save your current Wallpaper
-    '''sh
-        python main.py --set-default
-    '''
+    ```sh
+   python main.py --set-default
+   ```
 
 6. To refresh your wallpaper hourly:
-    '''sh
-        crontab -e
-    '''
-    Add this line (replace with your path)
+    ```sh
+   crontab -e
+   ```
+   <br>
+    Add this line (replace with your path) <br>
+    '''cron
     0 * * * * /usr/bin/python3 /path/to/weather-wallpaper/main.py
-
+    '''
 
 7. Change git remote url to avoid accidental pushes to base project
    ```sh
@@ -131,8 +109,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
     - [ ] Nested Feature
 
 See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues). -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
