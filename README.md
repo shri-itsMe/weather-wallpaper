@@ -100,7 +100,7 @@ Built with Python and AppleScript, bundled into a native `.app` using [Platypus]
     0 * * * * /usr/bin/python3 /path/to/weather-wallpaper/main.py
 
 
-6. Change git remote url to avoid accidental pushes to base project
+7. Change git remote url to avoid accidental pushes to base project
    ```sh
    git remote set-url origin github_username/repo_name
    git remote -v # confirm the changes
