@@ -12,12 +12,12 @@ wallpaper.capture_wallpaper()
 
 print(weather.current_condition())
 print(wallpaper.get_wallpaper())
-wallpaper.set_wallpapers()
+wallpaper.set_wallpaper()
 
 # print(wallpaper.user_default())
 
-if input("change back? T or F: ") == "T":
-    wallpaper.user_default()
+# if input("change back? T or F: ") == "T":
+#     wallpaper.user_default()
 
 
 

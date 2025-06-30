@@ -13,8 +13,10 @@ class Weather:
         # API URL Endpoint for Current Weather; Parameter for Location
 
     def weather_getter(self):
-
-        load_dotenv()
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        dotenv_path = os.path.join(script_dir, '.env')
+        load_dotenv(dotenv_path=dotenv_path)
+        # load_dotenv()
         api_key = os.getenv("WEATHER_API_KEY")
         if not api_key:
             raise Exception("donde esta api key?")
@@ -28,4 +30,4 @@ class Weather:
     
     def current_condition(self):
         return self.weather_getter()["current"]["condition"]["text"]
-    
+        
